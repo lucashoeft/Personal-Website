@@ -1,0 +1,13 @@
+RewriteEngine on
+RewriteRule ^\.htaccess$ - [F]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+# ---- Make pages render without their extension in the url
+Options +MultiViews
+
+DirectoryIndex index
+
+ErrorDocument 404 /404
+
