@@ -1,0 +1,1 @@
+function toggleNav(){var e=document.getElementById("nav-menu"),n=e.getAttribute("class");e.className="nav-right nav-menu"==n?"nav-right nav-menu is-active":"nav-right nav-menu"}document.getElementById("nav-toggle").addEventListener("click",toggleNav);

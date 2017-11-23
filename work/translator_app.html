@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator App — Lucas Hoeft</title>
+
+    <!-- Links -->
+    <script src="/js/min/dayandnight-min.js"></script>
+    <noscript><link href="stylesheets/css/style.css" rel="stylesheet"></noscript>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon/v3.ico">
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon.png" sizes="32x32">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <script>
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-78230788-2', 'auto');
+    ga('set', 'anonymizeIp', true);
+    ga('send', 'pageview');
+
+    </script>
+  </head>
+<body>
+
+  <section class="hero is-success is-medium">
+    <!-- notification -->
+    <!-- <div class="container is-fluid">
+      <div class="notification">
+        <p class="alert" align="center">👋🏻 Hey, I'm currently looking for an internship.</p>
+      </div>
+    </div> -->
+  <!-- Hero header: will stick at the top -->
+  <div class="hero-head">
+    <header class="nav">
+      <div class="container">
+        <div class="nav-left">
+        </div>
+        <span id="nav-toggle" class="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+        <div id="nav-menu" class="nav-right nav-menu">
+          <a class="nav-item" href="/">
+            Home
+          </a>
+          <a class="nav-item is-active" href="/work.html">
+            Work
+          </a>
+          <a class="nav-item" href="/contact.html">
+            Contact
+          </a>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-body">
+    <div class="container has-text-left">
+      <h1 class="title">
+        Translator App
+      </h1>
+      <h2 class="subtitle">
+        I wanted to create an application that was easy to use.  For the purpose of example, I looked at dict.cc. In my experience, dict.cc is a rather flawed example of how a translation application should behave.<br>
+        Admittedly, German application dict.cc does come with its perks; “Language Packs,” allow for users to use the application even when they’re not connected to mobile or wireless networks. “Language Packs,” however, being core to the application’s workings, one cannot plainly look up words in languages whose “Language Pack” is not installed on your device; one has to download the entire translation library of a particular language in order to translate only a single phrase or term.<br>
+        In my take, I wanted to improve both the application’s user experience (UX) and the application’s user interface (UI), to allow the application for following Google’s Material Design guidelines.
+      </h2>
+      <p></p>
+    </div>
+
+<!-- Gallery -->
+<div class="container">
+  <div class="columns">
+  <div class="column">
+    <figure class="image is-16by9">
+      <img src="/assets/img/translator_app/dict_cc.png">
+    </figure>
+    <figcaption class="caption has-text-centered">
+      In my experience, dict.cc is a rather flawed example of how a translation application should behave.
+    </figcaption>
+  </div>
+  </div>
+  <h2 class="subtitle">
+    Challenges: <br>
+    <br>
+    • Allow for the user to effortlessly switch between various languages. <br>
+    • Display “Translation History” to access previous translations. <br>
+    • Create a “Vocabulary Trainer” section within the application. <br>
+    • Design Update: Follow Google’s Material Design guidelines. <br>
+    <br>
+    Solutions to Challenges:<br>
+    <br>
+    • UX: It is a breeze to switch between different languages now.<br>
+    • UX: “History” displays your previous translation, so you can return to your recent translations, should you need or want to.<br>
+    • Installed: “Favorites” — A “Vocabulary Trainer”.<br>
+    • Design Update: Application follows Google’s Material Design guidelines<br>
+  </h2>
+  <div class="columns">
+  <div class="column">
+    <figure class="image is-16by9">
+      <img src="/assets/img/translator_app/nav.png">
+    </figure>
+    <figcaption class="caption has-text-centered">
+      The Top Navigation allows for the user effortlessly switch between various languages.
+    </figcaption>
+  </div>
+  </div>
+  <div class="columns">
+  <div class="column">
+    <figure class="image is-16by9">
+      <img src="/assets/img/translator_app/bottom_nav.png">
+    </figure>
+    <figcaption class="caption has-text-centered">
+      Bottom Navigation: Translation, History, and Favorites (Your Vocabulary Trainer)
+    </figcaption>
+  </div>
+  </div>
+  <h2 class="subtitle">
+    Screen Designs, Translator App:
+  </h2>
+  <div class="columns">
+  <div class="column">
+    <figure class="image is-4by3">
+      <img src="/assets/img/translator_app/main_screen.png">
+    </figure>
+    <figcaption class="caption has-text-centered">
+      Your Main Screen
+    </figcaption>
+  </div>
+  </div>
+  <div class="columns">
+  <div class="column">
+    <figure class="image is-4by3">
+      <img src="/assets/img/translator_app/results.png">
+    </figure>
+    <figcaption class="caption has-text-centered">
+      Your Cards
+    </figcaption>
+  </div>
+  </div>
+  <div class="columns">
+  <div class="column">
+    <figure class="image is-4by3">
+      <img src="/assets/img/translator_app/detail_page.png">
+    </figure>
+    <figcaption class="caption has-text-centered">
+      Your Detailed View (Invoked by tapping on a particular card)
+    </figcaption>
+  </div>
+  </div>
+  <div class="columns">
+  <div class="column">
+    <figure class="image is-4by3">
+      <img src="/assets/img/translator_app/translation_history.png">
+    </figure>
+    <figcaption class="caption has-text-centered">
+      Your Translation History
+    </figcaption>
+  </div>
+  </div>
+  <div class="columns">
+  <div class="column">
+    <figure class="image is-4by3">
+      <img src="/assets/img/translator_app/dictionaries.png">
+    </figure>
+    <figcaption class="caption has-text-centered">
+      Your Dictionaries
+    </figcaption>
+  </div>
+  </div>
+  <!-- Hero content: will be in the middle -->
+  <div class="container has-text-centered">
+    <h1 class="title thanks-for-watching">
+      Thanks for Watching!
+    </h1>
+    <h2 class="subtitle">
+      See more design work over at <a href="https://dribbble.com/lucashoeft" class="go-home" target="_blank">Dribbble</a>
+    </h2>
+  </div>
+</div>
+</div>
+
+</section>
+
+<!-- Hero footer: will stick at the bottom -->
+<div class="hero-foot work">
+  <div class="container">
+      <div class="nav-left nav-menu foot">
+        <a class="nav-item" href="/" style="margin-bottom: 20px;">© 2017 Lucas Hoeft</a>
+      </div>
+      <div class="nav-right nav-menu foot">
+        <a class="nav-item" target="_blank" href="https://dribbble.com/lucashoeft" style="margin-bottom: 20px;">Dribbble</a>
+        <a class="nav-item" target="_blank" href="https://github.com/lucashoeft" style="margin-bottom: 20px;">GitHub</a>
+        <a class="nav-item" target="_blank" href="https://twitter.com/lucashoeft" style="margin-bottom: 20px;">Twitter</a>
+        <a class="nav-item" target="_blank" href="https://www.instagram.com/lucashoeft/" style="margin-bottom: 20px;">Instagram</a>
+      </div>
+  </div>
+</div>
+
+  <!-- Scripts -->
+  <script src="/js/min/hamburger-min.js"></script>
+</body>
+</html>

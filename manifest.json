@@ -1,0 +1,12 @@
+{
+  "short_name": "lucashoeft",
+  "name": "Hey, I'm Lucas Hoeft! A self-taught designer and photographer from Berlin, Germany. Focusing on creating minimal interfaces for Web and Mobile.",
+  "icons": [
+    {
+      "src": "mstile-144x144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    }
+  ],
+  "start_url": "index.html?launcher=true"
+}

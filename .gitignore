@@ -1,0 +1,12 @@
+.idea/
+.idea/vcs.xml
+.idea/misc.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/modules.xml
+.idea/Currency-Converter.iml
+.idea/workspace.xml
+.DS_Store
+.sass-cache/
+config.codekit
+config.codekit3
+.codekit-cache
