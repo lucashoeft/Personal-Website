@@ -1,8 +1,12 @@
 # Personal Website
 
-This is repository for my personal website
+This is the repository of my personal website.
 
-## Technology used
+## Features
+
+* The website is changing its color scheme based on the users local time
+
+## Technology
 
 * HTML
 * CSS
@@ -10,7 +14,7 @@ This is repository for my personal website
 * JS
 * Bulma CSS framework
 
-## Software used
+## Software
 
 * Sublime Text
 * CodeKit
