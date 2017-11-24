@@ -3,9 +3,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title></title>
-<link rel="stylesheet" type="text/css" href="css/main.css" />
+<link rel="stylesheet" type="text/css" href="stylesheets/css/main.css" />
 <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/ie_8.css" />
+  <link rel="stylesheet" type="text/css" href="stylesheets/css/ie_8.css" />
 <![endif]-->
 </head>
 <body>
