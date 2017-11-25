@@ -1,6 +1,6 @@
 # Personal Website
 
-This is the repository of my personal website.
+This is the repository of my personal website. I'm a self-taught designer and photographer from Berlin, Germany. Focusing on creating minimal interfaces for Web and Mobile.
 
 ## Features
 
