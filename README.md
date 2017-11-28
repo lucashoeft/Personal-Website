@@ -19,7 +19,7 @@ This is the repository of my personal website. I'm a self-taught designer and ph
 * Sublime Text
 * CodeKit
 
-# Contributing Workflow
+## Contributing Workflow
 
 1. [Fork this project](https://help.github.com/articles/fork-a-repo/) to your account
 2. [Create a branch](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository) for the change you intend to make.
