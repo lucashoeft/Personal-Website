@@ -1,6 +1,6 @@
 # Personal Website
 
-This is the repository of my personal website. I'm a self-taught designer and photographer from Berlin, Germany. Focusing on creating minimal interfaces for Web and Mobile.
+This is the repository of my personal website. I'm a self-taught designer and photographer from Berlin, Germany. Focusing on creating minimal interfaces for Web and Mobile. Check it out [here](http://lucashoeft.com).
 
 Follow me on [Dribbble](https://dribbble.com/lucashoeft), [GitHub](https://github.com/lucashoeft), [Twitter](https://twitter.com/lucashoeft) and [Instagram](https://www.instagram.com/lucashoeft/).
 
@@ -8,7 +8,7 @@ Follow me on [Dribbble](https://dribbble.com/lucashoeft), [GitHub](https://githu
 
 * The website is changing its color scheme based on the users local time
 
-## Technology
+## Technologies
 
 * HTML
 * CSS
