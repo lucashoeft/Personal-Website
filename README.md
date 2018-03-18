@@ -26,4 +26,4 @@ Follow me on [Dribbble](https://dribbble.com/lucashoeft), [GitHub](https://githu
 1. [Fork this project](https://help.github.com/articles/fork-a-repo/) to your account
 2. [Create a branch](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository) for the change you intend to make.
 3. Make your changes to your fork.
-4. [Send a pull request](https://help.github.com/articles/using-pull-requests/) from your fork’s branch to our master branch.
+4. [Send a pull request](https://help.github.com/articles/using-pull-requests/) from your fork’s branch to the master branch.

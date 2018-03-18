@@ -1,0 +1,8 @@
+# robots.txt for http://lucashoeft.com
+
+User-agent: *
+Disallow: /stylesheets/
+Disallow: /js/
+Disallow: /assets/
+Allow: /*.html
+Allow: /work/*.html
