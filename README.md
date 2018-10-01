@@ -1,6 +1,6 @@
 # Personal Website
 
-This is the repository of my personal website. I'm a computational science student, designer and photographer from Berlin, Germany. Check it out [here](http://lucashoeft.com).
+This is the repository of my personal website. I'm a business informatics student from Berlin, Germany who is interested in iOS programming, design and photography. Check it out [here](http://lucashoeft.com).
 
 Follow me on [GitHub](https://github.com/lucashoeft), [Twitter](https://twitter.com/lucashoeft) and [Instagram](https://www.instagram.com/lucashoeft/).
 
