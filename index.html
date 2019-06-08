@@ -11,72 +11,7 @@
     <meta name="msapplication-TileImage" content="/mstile-144x144.png">
 
     <!-- Links -->
-    <script>
-    function getStylesheet() {
-      var currentTime = new Date().getHours();
-      if (0 <= currentTime&&currentTime < 8) {
-       document.write("<link rel='stylesheet' href='/stylesheets/css/dark.css' type='text/css'>");
-      }
-      if (8 <= currentTime&&currentTime < 18) {
-       document.write("<link rel='stylesheet' href='/stylesheets/css/light.css' type='text/css'>");
-      }
-      if (18 <= currentTime&&currentTime <= 24) {
-       document.write("<link rel='stylesheet' href='/stylesheets/css/dark.css' type='text/css'>");
-      }
-    }
-    getStylesheet();
-
-    // Different times based on month
-
-    // function getStylesheet() {
-    //   var currentDay = new Date();
-    //   var currentTime = currentDay.getHours();
-    //   var currentMonth = currentDay.getMonth();
-    //   var currentTimezone = currentDay.getTimezoneOffset();
-    //   var currentSunrise = {
-    //     "0": 9,
-    //     "1": 8,
-    //     "2": 7,
-    //     "3": 7,
-    //     "4": 6,
-    //     "5": 6,
-    //     "6": 6,
-    //     "7": 7,
-    //     "8": 8,
-    //     "9": 8,
-    //     "10": 8,
-    //     "11": 9
-    //     }
-    //   var currentSunset = {
-    //     "0": 16,
-    //     "1": 17,
-    //     "2": 18,
-    //     "3": 19,
-    //     "4": 20,
-    //     "5": 20,
-    //     "6": 20,
-    //     "7": 19,
-    //     "8": 18,
-    //     "9": 17,
-    //     "10": 16,
-    //     "11": 16
-    //     }
-    //     console.log(currentSunset[0])
-    //   if (0 <= currentTime&&currentTime < currentSunrise[currentMonth]) {
-    //    document.write("<link rel='stylesheet' href='/stylesheets/css/dark.css' type='text/css'>");
-    //   }
-    //   if (currentSunrise[currentMonth] <= currentTime&&currentTime < currentSunset[currentMonth]) {
-    //    document.write("<link rel='stylesheet' href='/stylesheets/css/light.css' type='text/css'>");
-    //   }
-    //   if (currentSunset[currentMonth] <= currentTime&&currentTime <= 24) {
-    //    document.write("<link rel='stylesheet' href='/stylesheets/css/dark.css' type='text/css'>");
-    //   }
-    // }
-
-    // getStylesheet();
-    </script>
-    <noscript><link href="stylesheets/css/light.css" rel="stylesheet"></noscript>
-    
+    <link rel='stylesheet' href='/stylesheets/css/style.css' type='text/css'>
     <link rel="manifest" href="/manifest.json">
     <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon/v3.ico">
     <link rel="icon" type="image/png" href="/assets/favicon/favicon.png" sizes="32x32">
