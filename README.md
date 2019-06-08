@@ -6,7 +6,7 @@ Follow me on [GitHub](https://github.com/lucashoeft), [Twitter](https://twitter.
 
 ## Features
 
-* The website is changing its color scheme based on the users local time
+* Adjusts color cheme depending on users system appearance
 
 ## Technologies
 
