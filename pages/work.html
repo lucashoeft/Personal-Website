@@ -1,3 +1,6 @@
+---
+permalink: /work.html
+---
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -15,31 +18,9 @@
 <body>
 
   <section class="hero is-success is-medium">
+
   <!-- Hero header: will stick at the top -->
-  <div class="hero-head">
-    <header class="nav">
-      <div class="container">
-        <div class="nav-left">
-        </div>
-        <span id="nav-toggle" class="nav-toggle">
-          <span></span>
-          <span></span>
-          <span></span>
-        </span>
-        <div id="nav-menu" class="nav-right nav-menu">
-          <a class="nav-item" href="/">
-            Home
-          </a>
-          <a class="nav-item is-active" href="/work.html">
-            Work
-          </a>
-          <a class="nav-item" href="/contact.html">
-            Contact
-          </a>
-        </div>
-      </div>
-    </header>
-  </div>
+    {% include navigation.html %}
 
   <main>
   <!-- Hero content: will be in the middle -->
@@ -134,21 +115,7 @@
 </section>
 </main>
 
-<footer>
-<!-- Hero footer: will stick at the bottom -->
-<div class="hero-foot work">
-  <div class="container">
-      <div class="nav-left nav-menu foot">
-        <a class="nav-item" href="/" style="margin-bottom: 20px;">© 2019 Lucas Hoeft</a>
-      </div>
-      <div class="nav-right nav-menu foot">
-        <a class="nav-item" target="_blank" rel="noopener noreferrer" href="https://github.com/lucashoeft" style="margin-bottom: 20px;">GitHub</a>
-        <a class="nav-item" target="_blank" rel="noopener noreferrer" href="https://twitter.com/lucashoeft" style="margin-bottom: 20px;">Twitter</a>
-        <a class="nav-item" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/lucashoeft/" style="margin-bottom: 20px;">Instagram</a>
-      </div>
-  </div>
-</div>
-</footer>
+{% include footer.html %}
 
 <!-- Scripts -->
 <script src="/js/min/hamburger-min.js"></script>
